@@ -16,6 +16,7 @@ python parse_snv_indel_merged.py --input merge.vcf --output merged_complete_vcf.
 
 # Nextflow 
 Entire workflow can be executed using nextflow
+
     nextflow run main.nf
 
 The workflow currently uses 2 VCF files as input for parse_snv_indel_merged.py but this can be modified by editing the "main.nf" file to accomodate more vcf files.
