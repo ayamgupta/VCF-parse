@@ -2,6 +2,9 @@
 Simple Python code to parse VEP annotated VCF files 
 
 
+VCF should not be zipped
+use gunzip or similar utility
+
     gunzip -c <input_file_name>_indels_VEP.ann.vcf.gz
     gunzip -c <input_file_name>_snvs_VEP.ann.vcf.gz
     gunzip -c <input_file_name>_VEP.ann.vcf.gz
