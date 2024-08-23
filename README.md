@@ -11,8 +11,8 @@ Simple Python code to parse VEP annotated VCF files
 *VCF files should be from the same samples. 
 
 # Custom parsers
-python parser.py --input <input_file_name>_VEP.ann.vcf --output <input_file_name>_VEP.ann.csv
-python parse_snv_indel_merged.py --input merge.vcf --output merged_complete_vcf.csv
+    python parser.py --input <input_file_name>_VEP.ann.vcf --output <input_file_name>_VEP.ann.csv
+    python parse_snv_indel_merged.py --input merge.vcf --output merged_complete_vcf.csv
 
 # Nextflow 
 Entire workflow can be executed using nextflow
